@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   <title>Dr. Newton Mwai | PhD in AI & Machine Learning</title>
   <meta name="description"
-    content="Newton Mwai, PhD finalist at Chalmers, specializes in machine learning, bandit algorithms, causality, and AI personalization.">
+    content="Newton Mwai, PhD from Chalmers, specializes in machine learning, bandit algorithms, causality, and AI personalization.">
   <link rel="stylesheet" href="stylesheets/styles.css">
   <link rel="stylesheet" href="stylesheets/pygment_trac.css">
   <meta name="viewport" content="width=device-width">
@@ -38,22 +38,19 @@
       <img src="https://newtonmwai.github.io/image/newton_new.JPG" alt="Newton Mwai, Machine Learning Researcher"
         height="220" width="220" style="border-radius: 20px;"><br>
       <a href="https://scholar.google.com/citations?user=zfZzEXMAAAAJ&hl=en" class="fa fa-google scholar"
-        target="_blank"></a>
-      <a href="https://github.com/newtonmwai" class="fa-brands fa-github" target="_blank"></a>
-      <a href="https://www.linkedin.com/in/newtonmwai/" class="fa-brands fa-linkedin" target="_blank"></a>
-      <a href="https://x.com/Mwai_Newton" class="fa-brands fa-x-twitter" target="_blank"></a>
+        target="_blank" aria-label="Google Scholar"></a>
+      <a href="https://github.com/newtonmwai" class="fa-brands fa-github" target="_blank" aria-label="GitHub"></a>
+      <a href="https://www.linkedin.com/in/newtonmwai/" class="fa-brands fa-linkedin" target="_blank" aria-label="LinkedIn"></a>
+      <a href="https://x.com/Mwai_Newton" class="fa-brands fa-x-twitter" target="_blank" aria-label="X (Twitter)"></a>
       <p>PhD in AI & Machine Learning</p>
-      <p><b>Email:</b>nkinyanj[at]alumni.cmu.edu</p>
-      <p><b>Research Interests</b>: Machine Learning, Interactive Personalization, Bandit Algorithms, Causality, Machine
-        Learning for Health, Trustworthy AI</p>
+      <p><b>Email:</b> nkinyanj[at]alumni.cmu.edu</p>
+      <p><b>Interests</b>: Machine Learning, Interactive Personalization, Recommender Systems, Experimentation, Bandit
+        Algorithms, Causality, Machine Learning for Health, Trustworthy AI</p>
       <h3>
         <p class="view"><a href="index.html">Home</a></p>
       </h3>
       <h3>
         <p class="view"><a href="service.html">Service</a></p>
-      </h3>
-      <h3>
-        <p class="view"><a href="blog.html">Blog</a></p>
       </h3>
     </header>
 
@@ -67,112 +64,123 @@
           Johansson</a>. My research focused on designing interactive sequential learning algorithms for
         personalization, particularly in healthcare settings. I developed sample-efficient bandit algorithms that leverage
         historical data and incorporate real-world constraints to improve treatment personalization. This work is also
-        applicable to broader interactive personalization tasks, such as content recommendation in internet media.
+        applicable to broader interactive personalization tasks, such as content recommendation,
+        adaptive experimentation (A/B testing), and off-policy evaluation.
       </p>
       <p>
-        Before my PhD, I attained a Masters degree in Electrical and Computer Engineering at Carnegie Mellon University and dual
+        Before my PhD, I attained a Master's degree in Electrical and Computer Engineering at Carnegie Mellon University and dual
         Bachelor's degrees in Electrical and Electronics Engineering and Telecommunication and Information Engineering
-        at Dedan Kimathi University of Technology.
+        at Dedan Kimathi University of Technology. I have also worked as a software and infrastructure engineer at Adtel
+        (Jamii Telecom), interned at IBM Research, and contributed off-policy evaluation estimators to Vowpal Wabbit
+        through Microsoft Research's RL Open Source Fest.
       </p>
       <hr />
 
-      <h2>Recent News</h2>
-      <ul>
-        <li><b>October 10th 2025:</b> Defended my PhD Thesis titled <i>Leveraging Structural Priors and Historical Data for Practical Treatment Personalization with Multi-Armed Bandits</i>. <a
-            href="https://newtonmwai.github.io/papers/info.pdf"
-            class="logo" target="_blank">[Abstract]</a> <a href="https://www.chalmers.se/en/current/calendar/Newton-Mwai-Kinyanjui-548185/"
-            class="logo" target="_blank">[Details]</a> <a href="https://research.chalmers.se/publication/548185/file/548185_Fulltext.pdf"
-            class="logo" target="_blank">[Thesis]</a></li></li>
-        <li><b>October 2025:</b> Completed PhD in Computer Science & Engineering at Chalmers University
-          of
-          Technology. <i>Seeking research/industry opportunities in machine learning.</i> </li>
-        <li><b>September 2025:</b> Upcoming publication to appear in European Workshop on Reinforcement Learning(EWRL)
-          2025, on <i>	
-Understanding Exploration in Bandits with Switching Constraints: A Batched Approach in Fixed-Confidence Pure Exploration</i>.</li>
-        <li><b>July 2025:</b> Upcoming publication to appear in International Conference on Machine Learning (ICML)
-          2025, on <i>Prediction models that learn to avoid missing values</i>.</li>
-        <li><b> March 2025:</b> Gave a talk at IBM Research in Nairobi, Kenya: <i>Improving treatment personalization
-            with structures in sequential decision making</i>.</li>
-        <li><b>January 2025:</b> Gave a talk at Research Institutes of Sweden (RISE) Learning Machines Seminar:
-          <i>Improving treatment personalization with structures in sequential decision making </i><a
-            href="https://www.youtube.com/watch?v=XQ43UVwBow0" class="logo" target="_blank">[Youtube]</a>
-        </li>
-        <li><b>2024:</b> Presented at ICML 2024 workshop on aligning reinforcement learning experimentalists and
-          theorists: <i>Batched fixed-confidence pure exploration for bandits with switching constraints</i>.</li>
-        <li><b>2023:</b> Awarded Licentiate of Philosophy in Computer Science & Engineering from Chalmers University of
-          Technology.</li>
-      </ul>
+      <h2>PhD Thesis</h2>
+      <p>
+        <i>Leveraging Structural Priors and Historical Data for Practical Treatment Personalization with Multi-Armed Bandits</i>. Defended on October 10th 2025 at Chalmers University of Technology.
+        <a href="https://research.chalmers.se/publication/548185/file/548185_Fulltext.pdf"
+            class="logo" target="_blank">[Thesis]</a>
+      </p>
+      <h3>Efficient and Practical Treatment Decisions with AI</h3>
+      <p>
+        Finding the right treatment for a patient often involves testing several options before settling on the most
+        effective one. In chronic diseases such as Alzheimer’s, where treatment benefits are short‑lived and regular
+        adjustments are needed, this trial‑and‑error process can be a long and costly process for both patients and
+        healthcare systems. The aim of this research is to develop AI-based methods to shorten this search, while also
+        respecting practical constraints, for example, reducing how often treatments are switched to avoid discomfort
+        and side effects.
+      </p>
+      <p>
+        The work adapts a family of algorithms known as multi‑armed bandits, designed for learning through trial and
+        error, for application in medical decision-making. It introduces new strategies that use patterns hidden in
+        past records of patient treatment to guide quicker, effective decisions for new patients, explores ways to
+        model patient differences flexibly, and develops methods that limit treatment changes without harming
+        effectiveness. To test these algorithms safely, a realistic simulation environment for Alzheimer’s treatment
+        was built using real clinical data and expert medical knowledge.
+      </p>
+      <p>
+        The thesis paves the way for more efficient and patient‑friendly decision‑making with AI in personalized
+        medicine for the future.
+      </p>
+      <details lang="sv">
+        <summary>På svenska: Effektiva och praktiska behandlingsbeslut med AI</summary>
+        <p>
+          Att hitta rätt behandling för en patient innebär ofta att man måste prova flera alternativ innan man hittar
+          det mest effektiva. Vid kroniska sjukdomar som Alzheimers, där behandlingseffekterna är kortvariga och
+          regelbundna justeringar behövs, kan denna process av att pröva sig fram bli både lång och kostsam för
+          patienter och vårdsystem. Målet med den här forskningen är att utveckla AI-baserade metoder som förkortar
+          sökandet, samtidigt som praktiska begränsningar respekteras – till exempel att minska hur ofta behandlingar
+          byts för att undvika obehag och biverkningar.
+        </p>
+        <p>
+          I avhandlingen används en grupp av algoritmer som kallas multi-armed bandits vilka är framtagna för lärande
+          genom trial and error, för användning i medicinskt beslutsfattande. De introducerar nya strategier som hittar
+          och använder mönster från tidigare patientjournaler för att kunna fatta snabbare och mer effektiva beslut för
+          nya patienter. Vidare undersöks flexibla sätt att modellera patienters olikheter för att utveckla metoder som
+          begränsar behandlingsbyten utan att försämra effektiviteten. För att testa algoritmerna på ett säkert sätt
+          byggdes en realistisk simuleringsmiljö för Alzheimerbehandling, baserad på verklig klinisk data och medicinsk
+          expertkunskap.
+        </p>
+        <p>
+          Avhandlingen banar väg för mer effektiva och patientvänliga beslut med AI inom framtidens individanpassade
+          medicin.
+        </p>
+      </details>
       <hr />
 
       <h2>Publications</h2>
       <ul>
+        <li><b>2026:</b> Ahmet Zahid Balcıoğlu, <b>Newton Mwai</b>, Emil Carlsson, and Fredrik D Johansson.
+          <i>Identifiable Latent Bandits: Leveraging observational data for personalized decision-making.</i>
+          Transactions on Machine Learning Research, 2026. <a
+            href="https://openreview.net/pdf?id=SvkZ76wKpu" class="logo" target="_blank">[Paper]</a></li>
         <li><b>2025:</b> <b>Newton Mwai</b>, Emil Carlsson, and Fredrik D Johansson. <i>Latent Preference Bandits.</i>
-          In submission, under review, 2025. <a href="http://arxiv.org/abs/2508.05367"
-            class="logo" target="_blank">[URL]</a></li>
+          Preprint, 2025. <a href="http://arxiv.org/abs/2508.05367"
+            class="logo" target="_blank">[Paper]</a></li>
         <li><b>2025:</b> <b>Newton Mwai</b>, Milad Malekipirbazari, and Fredrik D Johansson. <i>Understanding
             exploration in bandits with switching constraints: A batched approach in fixed-confidence pure
             exploration.</i> European Workshop on Reinforcement Learning (EWRL), 2025 <a
             href="https://newtonmwai.github.io/papers/4.pdf"
             class="logo" target="_blank">[PDF]</a></li>
-        <li><b>2025:</b> Balcıoğlu Ahmet Zahid, <b>Newton Mwai</b>, Emil Carlsson, and Fredrik D Johansson.
-          <i>Identifiable Latent Bandits: Leveraging observational data for personalized decision-making</i> In
-          submission, under review, 2025. <a href="https://newtonmwai.github.io/papers/Identifiable_Latent_Bandits.pdf"
-            class="logo" target="_blank">[PDF]</a>
-        </li>
-        <li><b>2025:</b> Stempfle Lena, Anton Matsson, <b>Newton Mwai</b>, and Fredrik D Johansson. <i>Prediction models
+        <li><b>2025:</b> Lena Stempfle, Anton Matsson, <b>Newton Mwai</b>, and Fredrik D Johansson. <i>Prediction models
             that learn to avoid missing values.</i> In International Conference on Machine Learning (ICML), 2025. <a
-            href="https://arxiv.org/abs/2505.03393" class="logo" target="_blank">[URL]</a></li>
-        <li><b>2025:</b> Orrelid Christoffer Ivarsson, Oscar Rosberg, Sophia Weiner, Fredrik D Johansson, Johan Gobom,
+            href="https://arxiv.org/abs/2505.03393" class="logo" target="_blank">[Paper]</a></li>
+        <li><b>2025:</b> Christoffer Ivarsson Orrelid, Oscar Rosberg, Sophia Weiner, Fredrik D Johansson, Johan Gobom,
           Henrik Zetterberg, <b>Newton Mwai</b>, and Lena Stempfle. <i>Applying machine learning to high-dimensional
             proteomics datasets for the identification of Alzheimer's disease biomarkers.</i> Fluids and Barriers of the
           CNS, volume 22, page 23. Springer, 2025. <a
-            href="https://link.springer.com/article/10.1186/s12987-025-00634-z" class="logo" target="_blank">[URL]</a>
+            href="https://link.springer.com/article/10.1186/s12987-025-00634-z" class="logo" target="_blank">[Paper]</a>
         </li>
         <li><b>2024:</b> <b>Newton Mwai</b>, Milad Malekipirbazari, and Fredrik D Johansson. <i>Batched fixed-confidence
             pure exploration for bandits with switching constraints.</i> In ICML 2024 workshop: aligning reinforcement
           learning experimentalists and theorists, 2024. <a href="https://openreview.net/pdf?id=hdP9jO3x0w" class="logo"
-            target="_blank">[URL]</a></li>
+            target="_blank">[Paper]</a></li>
         <li><b>2023:</b> <b>Newton Mwai</b>, Emil Carlsson, and Fredrik D Johansson. <i>Fast treatment personalization
             with latent bandits in fixed-confidence pure exploration.</i> Transactions on Machine Learning Research,
-          2023. <a href="https://openreview.net/pdf?id=NNRIGE8bvF" class="logo" target="_blank">[URL]</a></li>
+          2023. <a href="https://openreview.net/pdf?id=NNRIGE8bvF" class="logo" target="_blank">[Paper]</a> <a
+            href="https://github.com/newtonmwai/fast_treatment_personalization" class="logo" target="_blank">[Code]</a></li>
         <li><b>2023:</b> <b>Newton Mwai</b>. <i>Improved Sequential Decision-Making with Structural Priors: Enhanced
             Treatment Personalization with Historical Data.</i> Licentiate thesis, Chalmers University of Technology,
           Sweden, 2023. <a href="https://research.chalmers.se/publication/535444/file/535444_Fulltext.pdf" class="logo"
-            target="_blank">[URL]</a></li>
+            target="_blank">[Paper]</a></li>
         <li><b>2022:</b> <b>Newton Mwai</b> and Fredrik D Johansson. <i>ADCB: An Alzheimer's disease simulator for
             benchmarking observational estimators of causal effects.</i> In Conference on Health, Inference, and
           Learning, pages 103-118. PMLR, 2022. <a
             href="https://proceedings.mlr.press/v174/kinyanjui22a/kinyanjui22a.pdf" class="logo"
-            target="_blank">[URL]</a></li>
+            target="_blank">[Paper]</a> <a href="https://github.com/Healthy-AI/ADCB" class="logo"
+            target="_blank">[Code]</a></li>
         <li><b>2020:</b> <b>Newton Mwai</b>, Timothy Odonga, Celia Cintas, Noel CF Codella, Rameswar Panda, Prasanna
           Sattigeri, and Kush R Varshney. <i>Fairness of classifiers across skin tones in dermatology.</i> In
           International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 320-329.
           Springer, 2020. <a href="https://krvarshney.github.io/pubs/KinyanjuiOCCPSV_miccai2020.pdf" class="logo"
-            target="_blank">[URL]</a></li>
+            target="_blank">[Paper]</a></li>
         <li><b>2019:</b> <b>Newton Mwai</b>, Timothy Odonga, Celia Cintas, Noel CF Codella, Rameswar Panda, Prasanna
           Sattigeri, and Kush R Varshney. <i>Estimating skin tone and effects on classification performance in
             dermatology datasets.</i> In
           NeurIPS Workshop on Fair ML for Health, 2019. <a href="https://arxiv.org/pdf/1910.13268" class="logo"
-            target="_blank">[URL]</a></li>
+            target="_blank">[Paper]</a></li>
       </ul>
-
-      <div style="display: none;">
-        <hr />
-        <!-- Stats Map Section -->
-        <h2>Visitor Map</h2>
-        <table
-          style="width:50%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tbody>
-            <tr>
-              <script type='text/javascript' id='clustrmaps'
-                src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=5R5ejfO2KdpksYrIaV7Z_YHMoV3sEqXyiIndUSHWaP4&co=a31515&cmn=2b91af&cmo=999999'></script>
-            </tr>
-          </tbody>
-        </table>
-        <p align="center">
-          <font color="#999999">Last update: May 2025</font>
-        </p>
-      </div>
     </section>
   </div>
   <script src="javascripts/scale.fix.js"></script>
